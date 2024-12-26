@@ -1,0 +1,90 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+header img {
+    height: 80px;
+    margin-right: 10px; /* Add some space between the logo and the name */
+}
+
+.institute-name {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Use macOS system font */
+    font-size: 24px; /* Adjust font size as needed */
+    color: black; /* Set text color to white */
+    font-weight: bold; /* Make the text bold */
+    margin-right: auto; /* Push the nav to the right */
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.details-box {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.details-box input {
+    width: 45%; /* Adjusted width to allow space for the OR text */
+    padding: 10px;
+    margin: 10px 5px; /* Adjusted margin for spacing */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 40px; /* Set a fixed height */
+}
+
+.or-text {
+    font-size: 20px; /* Adjust font size for visibility */
+    margin: 0 10px; /* Add some margin for spacing */
+    line-height: 40px; /* Center the text vertically with the input fields */
+}
+
+.details-box button {
+    background-color: rgb(62, 166, 228);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    border-left: rgb(62, 166, 228);
+    border-right: rgb(62, 166, 228);
+    cursor: pointer;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-family: open_sansregular;
+    font-weight: 400;
+    margin-top: 10px; /* Add margin to separate from inputs */
+}
